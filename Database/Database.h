@@ -84,7 +84,6 @@ public:
 
     void FillTheTable(const User user) {
         try {
-            cout << CheckUser(user) << endl;
             if(CheckUser(user)) {
                 cout << "Account exists!" << endl;
                 return;
